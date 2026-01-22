@@ -1,6 +1,11 @@
 # CONDE 
 def add(a, b):
     return a + b
+
+# CELESTE:
+def subtract(a, b):
+    return a - b
+
 # ESCRUPOLO
 def show_menu():
     print("\n=== SIMPLE CALCULATOR ===")
