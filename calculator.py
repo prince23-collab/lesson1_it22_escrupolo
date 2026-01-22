@@ -1,3 +1,4 @@
+# ESCRUPOLO
 def show_menu():
     print("\n=== SIMPLE CALCULATOR ===")
     print("1. Addition")
