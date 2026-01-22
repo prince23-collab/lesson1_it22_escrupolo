@@ -1,25 +1,22 @@
-from add import add
-from subtract import subtract
-from multiply import multiply
-from divide import divide
+def show_menu():
+    print("\n=== SIMPLE CALCULATOR ===")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    print("5. Exit")
 
-def calculator():
+def main():
     while True:
-        print("\n=== Simple Python Calculator ===")
-        print("1. Addition")
-        print("2. Subtraction")
-        print("3. Multiplication")
-        print("4. Division")
-        print("5. Exit")
-
+        show_menu()
         choice = input("Choose an option (1-5): ")
 
         if choice == "5":
-            print("Calculator closed.")
+            print("Goodbye!")
             break
 
         if choice not in ["1", "2", "3", "4"]:
-            print("Invalid choice!")
+            print("Invalid choice. Try again.")
             continue
 
         try:
@@ -38,4 +35,5 @@ def calculator():
         elif choice == "4":
             print("Result:", divide(num1, num2))
 
-calculator()
+main()
+
