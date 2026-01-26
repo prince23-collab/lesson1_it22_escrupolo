@@ -5,6 +5,7 @@ def add(a, b):
 # CELESTE:
 def subtract(a, b):
     return a - b
+
 # LAGNADA:
 def divide(a, b):
     if b == 0:
